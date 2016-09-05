@@ -1,7 +1,10 @@
-nsqjs
+nsqjs - nodejs v6 compatible
 =====
 The official NodeJS client for the [nsq](http://nsq.io/) client protocol. This implementation attempts to be
 fully compliant and maintain feature parity with the official Go ([go-nsq](https://github.com/nsqio/go-nsq)) and Python ([pynsq](https://github.com/nsqio/pynsq)) clients.
+
+> This is a fork of the original nsqjs with the sole purpose of providing nodejs v6 compatibility.
+> There were various build issues related to obsolete dependencies of snappystream.
 
 [![Build Status](https://travis-ci.org/dudleycarr/nsqjs.png?branch=master)](https://travis-ci.org/dudleycarr/nsqjs)
 
