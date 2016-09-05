@@ -5,7 +5,7 @@ tls = require 'tls'
 zlib = require 'zlib'
 fs = require 'fs'
 {EventEmitter} = require 'events'
-{SnappyStream, UnsnappyStream} = require 'snappystream'
+{SnappyStream, UnsnappyStream} = require '@tsjing/snappystream'
 
 _ = require 'underscore'
 NodeState = require 'node-state'
